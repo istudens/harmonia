@@ -20,8 +20,6 @@ else
     exit 3
   fi
 
-  readonly OLD_RELEASES_FOLDER=${OLD_RELEASES_FOLDER:-'/opt/old-as-releases'}
-
   readonly DOCKER_IMAGE=${DOCKER_IMAGE:-'rhel6-jenkins-shared-slave'}
 
   readonly DOCKER_JAVAZI_MOUNT=${DOCKER_JAVAZI_MOUNT:-'/usr/share/javazi-1.8/:/usr/share/javazi-1.8/'}
